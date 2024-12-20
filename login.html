@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+        <link  rel="stylesheet" href="styles/styles.css">
+
+        <script src="https://kit.fontawesome.com/9c783d25dc.js" crossorigin="anonymous"></script>
+
+        <title>Perez Seats</title>
+    </head>
+    <body>
+
+        <!-- NAV -->
+        <header>
+            <nav class="main-nav">
+                <div class="logo">
+                    <a href="index.html"><img src="images/logo.png" alt="Logo de Perez Seats" class="logo-image"></a>
+                    <a href="index.html"><h3>Perez Seats</h3></a>
+                </div>
+                <div>
+                    <ul class="nav-list">
+                        <li class="nav-category">
+                            <a href="group0.html">Grupo 0+</a>
+                        </li>
+                        <li class="nav-category">
+                            <a href="group1.html">Grupo 1</a>
+                        </li>
+                        <li class="nav-category">
+                            <a href="group2-3.html">Grupo 2/3</a>
+                        </li>
+                        <li class="nav-category">
+                            <a href="comparator.html">Comparar</a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <ul class="nav-list">
+                        <li class="nav-icon">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </li>
+                        <li class="nav-icon">
+                            <i class="fa-solid fa-user"></i>
+                        </li>
+                        <li class="nav-icon">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                        </li>
+                        <li class="nav-icon">
+                            <i class="fa-solid fa-globe"></i>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+
+        <!-- LOGIN -->
+        
+        <section class="login-container">
+            <form class="login">
+                <h1>Iniciar Sesión</h1>
+                <p>Por favor, introduce tu correo electrónico y contraseña para acceder a tu cuenta.</p>
+
+                <article>
+                    <label for="email"></label>
+                    <input id="email" name="email" type="email" placeholder="Correo electrónico" autocomplete="username" required>
+                </article>
+                
+                <article>
+                    <label for="current-password"></label>
+                    <input id="current-password" name="current-password" type="password" placeholder="Contraseña" autocomplete="current-password" aria-describedby="password-constraints" required>
+<!--                     <button id="toggle-password" type="button" aria-label="Show password as plain text. Warning: this will display your password on the screen.">Show password</button>
+ -->                    <p id="password-constraints">Eight or more characters, with at least one&nbsp;lowercase and one uppercase letter.</p>
+                </article>
+                
+                <button type="submit" class="login-button">Iniciar Sesión</button>
+                
+                <article>
+                    <div class="divider">
+                        <p>or continue with</p>
+                    </div>
+                    <button type="button" class="birt-button" ><strong>B</strong> Birt Mail</button>
+                </article>
+
+                <article class="remember-me">
+                    <label><input type="checkbox" name="">Recuérdame</label>
+                </article>
+            </form>
+            
+        </section>
+
+        <!-- FOOTER -->
+        <footer class="footer-container">
+            <article class="footer-logo-social">
+                <div class="logo">
+                    <img src="images/logo.png" alt="Logo de Perez Seats" class="logo-image">
+                    <h3>Perez Seats</h3>
+                </div>
+                <div class="footer-icons">
+                    <a href="#" aria-label="Visítanos en TikTok"><img src="images/logos/tik-tok.png" alt="Logo Tiktok." class="footer-icon"></a>
+                    <a href="#" aria-label="Visítanos en Twitter"><img src="images/logos/twitter.png" alt="Logo Twitter." class="footer-icon"></a>
+                    <a href="#" aria-label="Visítanos en Facebook"><img src="images/logos/facebook.png" alt="Logo Facebook." class="footer-icon"></a>
+                    <a href="#" aria-label="Visítanos en Youtube"><img src="images/logos/youtube.png" alt="Logo Youtube." class="footer-icon"></a>
+                    <a href="#" aria-label="Visítanos en Instagram"><img src="images/logos/instagram.png" alt="Logo Instagram." class="footer-icon"></a>
+                </div>
+            </article>
+            <article class="footer-list">
+                <h5>Servicio al Cliente</h5>
+                <ul>
+                    <li><a href="#">Contáctanos</a></li>
+                    <li><a href="#">Estado del Pedido</a></li>
+                    <li><a href="#">Devoluciones</a></li>
+                    <li><a href="#">Envíos</a></li>
+                </ul>
+            </article>
+            <article class="footer-list">
+                <h5>Sobre Nosotros</h5>
+                <ul>
+                    <li><a href="#">Historia</a></a></li>
+                    <li><a href="#">Carreras</a></li>
+                    <li><a href="#">Prensa</a></li>
+                    <li><a href="#">Blog</a></li>
+                </ul>
+            </article>
+            <article class="footer-form">
+                <h5>Unete a nuestro boletin</h5>
+                <p>¡Regístrate para ofertas exclusivas!</p>
+                <form>
+                    <input type="email" placeholder="Correo electrónico" class="footer-input" required>
+                    <button type="submit" class="footer-button">Suscribirse</button>
+                </form>
+            </article>
+        </footer>
+
+    </body>
+</html>
